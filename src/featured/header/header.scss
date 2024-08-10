@@ -6,24 +6,37 @@
 
 .nav-container {
     width: 100%;
-    height: 65px;
+    height: 70px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
     padding-left: 40px;
+    gap: 20px;
+
+    img {
+        cursor: pointer;
+    }
 
     ul {
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: 30px;
+        cursor: pointer;
 
-        a {
+        li {
+            display: flex;
+            align-items: center;
+            gap: 5px;
             color: #000;
             text-decoration: none;
             font-weight: 600;
         }
     }
+}
+
+.nav-container .arrow {
+    color: blue;
 }
 
 .nav-container .burger {
@@ -37,26 +50,40 @@
 }
 
 .right-nav {
+    padding-right: 50px;
     margin-left: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 15px;
 
     button {
-        padding: 5px 10px;
+        width: 100px;
+        height: 35px;
         background-color: blue;
         color: white;
         border: none;
-        border-radius: 5px;
+        border-radius: 8px;
         cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    button:hover {
+        background-color: #000;
     }
 
     svg {
-        font-size: 20px;
+        font-size: 18px;
         cursor: pointer;
+    }
+
+    svg:hover {
+        color: blue;
     }
 }
 
+// End Of Navbar
 
 .sidebar {
     position: fixed;
@@ -102,7 +129,6 @@
 
 .sidebar .subscribe {
     display: flex;
-    justify-content: center;
     margin: auto;
     width: 340px;
     height: 450px;
@@ -164,14 +190,82 @@
     z-index: 99;
 }
 
-.side-cards-wrapper .side-card{
+.side-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.side-cards-wrapper .h2 {
+    padding-top: 40px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 17px;
+
+}
+
+.side-cards-wrapper .side-card {
     display: flex;
     justify-content: flex-start;
     gap: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+
+    img {
+        border-radius: 12px;
+        width: 100px;
+        height: 75px;
+    }
 }
 
-.side-card .side-card-content{
+.side-card .side-card-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 5px;
+
+    h2 {
+        font-weight: 700;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    h2:hover {
+        color: #174087;
+    }
+
+    p {
+        font-size: 12px;
+        color: gray;
+        font-weight: 500;
+    }
 }
+
+
+.side-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.side-social-icons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    background-color: #1a1a1a;
+}
+
+.side-social-icons button:hover {
+    color: #3c3fde;
+}
+
+// End Of Sidebar
+
