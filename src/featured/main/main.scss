@@ -17,4 +17,52 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
+}
+
+.wrapper-girl-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 300px;
+    padding-left: 25px;
+}
+
+.wrapper-girl-content button{
+    width: 82px;
+    height: 28px;
+    color: #fff;
+    background-color: #ab07ab;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+.wrapper-girl-content h1{
+    border: 1px solid #000;
+    width: 610px;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-girl-content .secondh1{
+    width: 515px;
+
+}
+
+.wrapper-cards-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper-cards-container .wcard1{
+    background-image: url();
 }
