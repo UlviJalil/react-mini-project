@@ -4,23 +4,29 @@
     box-sizing: border-box;
 }
 
-
-.wrapper-container{
-    width: 100%;
-    height: 100vh;
+body {
+    background-color: #ffffff;
 }
 
-.wrapper-girl{
-    width: 800px;
+.wrapper-container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.wrapper-girl {
+    width: 850px;
     height: 500px;
     background-image: url(../../assets/images/wrapper-girl-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    margin-bottom: 35px;
 }
 
-.wrapper-girl-content{
+.wrapper-girl-content {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -28,9 +34,11 @@
     gap: 10px;
     padding-top: 300px;
     padding-left: 25px;
+    cursor: pointer;
+
 }
 
-.wrapper-girl-content button{
+.wrapper-girl-content button {
     width: 82px;
     height: 28px;
     color: #fff;
@@ -38,10 +46,10 @@
     border-radius: 5px;
     font-size: 12px;
     font-weight: 500;
-    
+
 }
 
-.wrapper-girl-content h1{
+.wrapper-girl-content h1 {
     border: 1px solid #000;
     width: 610px;
     height: 50px;
@@ -53,16 +61,129 @@
     align-items: center;
 }
 
-.wrapper-girl-content .secondh1{
+.wrapper-girl-content .secondh1 {
     width: 515px;
 
 }
 
-.wrapper-cards-container{
+
+.wrapper-cards {
+    display: flex;
+    gap: 30px;
     width: 100%;
     height: 100vh;
 }
 
-.wrapper-cards-container .wcard1{
-    background-image: url();
+.wrapper-cards .wcard {
+    background-image: url(../../assets/images/wrapper-card-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 417px;
+    height: 250px;
+    border-radius: 10px;
+
+    button {
+        background-color: blue;
+        color: #fff;
+    }
+}
+
+.wrapper-cards .wcard2 {
+    background-image: url(../../assets/images/wrapper-card-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 398px;
+    height: 250px;
+    border-radius: 10px;
+
+    button {
+        background-color: blue;
+        color: #fff;
+    }
+}
+
+.wrapper-cards .wcard1-wrapper {
+    width: 400px;
+    height: 390px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.wrapper-cards .wcard2-wrapper {
+    width: 400px;
+    height: 390px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.wcard .wcard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 250px;
+    padding-left: 20px;
+    cursor: pointer;
+
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    h2:hover {
+        color: #174087;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+.wcard2 .wcard2-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 250px;
+    padding-left: 20px;
+    cursor: pointer;
+
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    h2:hover {
+        color: #174087;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+.wcard button {
+    position: relative;
+    top: 226px;
+    left: 30px;
+    font-size: 15px;
+    width: 100px;
+    height: 21px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #2e32f1;
+}
+
+.wcard2 button {
+    position: relative;
+    top: 226px;
+    left: 30px;
+    font-size: 15px;
+    width: 100px;
+    height: 21px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #2e32f1;
 }
