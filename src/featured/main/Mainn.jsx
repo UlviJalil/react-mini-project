@@ -14,22 +14,39 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="right-img-wrapper">
+      
         <div className="img">
         
-        </div>
+        
       </div>
 
     </div>
-    <div className='wrapper-card-container'>
+   
     <div className="wrapper-cards">
       <div className="wcard-wrapper">
       <div className="wcard">
     <button>TECHNOLOGY</button>
+    <div className="wcard-content">
+        <h2>Tablet PC Market to Witness Exponential <br /> Growth by 2028, Sources Say</h2>
+        <p>Shane DoeJan 11, 2020</p>
+      </div>
+      </div>
+    </div>
+    
+
+   
+      <div className="wcard-wrapper">
+      <div className="wcard2">
+    <button>TECHNOLOGY</button>
+    <div className="wcard-content">
+        <h2>Tablet PC Market to Witness Exponential <br /> Growth by 2028, Sources Say</h2>
+        <p>Shane DoeJan 11, 2020</p>
+      </div>
       </div>
     </div>
     </div>
-    </div>
+
+    
     </>
   )
 }

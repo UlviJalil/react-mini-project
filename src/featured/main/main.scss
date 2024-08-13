@@ -9,6 +9,7 @@ body {
 }
 
 .wrapper {
+    width: 100%;
     padding-top: 40px;
     display: flex;
     justify-content: center;
@@ -67,13 +68,8 @@ body {
 
 }
 
-.wrapper-girl-container .right-card-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.right-img-wrapper .img {
+.img {
     background-image: url(../../assets/images/right-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -85,15 +81,20 @@ body {
 
 
 
-
-
+.wrapper-cards{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 65px;
+    padding-left: 50px;
+}
 
 .wrapper-cards .wcard {
     background-image: url(../../assets/images/wrapper-card-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 400px;
+    width: 415px;
     height: 250px;
     border-radius: 10px;
 
@@ -108,7 +109,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 400px;
+    width: 415px;
     height: 250px;
     border-radius: 10px;
 
@@ -119,20 +120,20 @@ body {
 }
 
 .wrapper-cards .wcard-wrapper {
-    width: 400px;
+    width: 415px;
     height: 390px;
     border: 2px solid whitesmoke;
     border-radius: 10px;
 }
 
-.wrapper-cards .wcard2-wrapper {
-    width: 400px;
+.wrapper-cards .wcard-wrapper {
+    width: 415px;
     height: 390px;
     border: 2px solid whitesmoke;
     border-radius: 10px;
 }
 
-.wcard .wcard-content {
+.wcard2 .wcard-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -155,7 +156,7 @@ body {
     }
 }
 
-.wcard2 .wcard2-content {
+.wcard .wcard-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
