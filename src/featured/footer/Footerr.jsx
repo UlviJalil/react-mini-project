@@ -1,5 +1,8 @@
 import React from 'react'
-import './footer.scss'
+// import { FaFacebookF, FaInstagram, FaPinterestP } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { ImFire } from "react-icons/im";
+
 
 const Footer = () => {
   return (
@@ -9,4 +12,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
